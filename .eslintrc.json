@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "plugin:styled-components-a11y/recommended"],
+  "plugins": ["prettier", "styled-components-a11y"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off"
+  }
+}
